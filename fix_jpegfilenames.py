@@ -6,7 +6,7 @@ import os
 import sys
 #vfolder_l=glob.glob('test2/*')
 print(sys.argv)
-exit()
+#exit()
 vfolder_l=glob.glob('20bn-something-something-v2-frames/*')
 for i in range(len(vfolder_l)):
     vjpgs=glob.glob(vfolder_l[i]+'/*')
